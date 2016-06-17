@@ -16,8 +16,8 @@ else
 fi
 
 # cleanup existing directories
-rm -rf ${JUPYTER_BASE}
-rm -rf ${JUPYTER}
+#rm -rf ${JUPYTER_BASE}
+#rm -rf ${JUPYTER}
 
 # download latest repos
 git clone https://github.com/trustedanalytics/jupyter-base.git ${JUPYTER_BASE}
